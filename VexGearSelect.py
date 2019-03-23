@@ -175,5 +175,5 @@ while(True):
         else:
             print("Goodbye!")
             break
-    except:
+    except ValueError:
        print("Invalid Input")
