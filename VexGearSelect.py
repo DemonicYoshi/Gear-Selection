@@ -24,7 +24,7 @@ def gearSelect(gearsList, stages, target, tolerance):
         for g1 in gearsList:
             lst.append(g1)
             for g2 in gearsList:
-                if (g1 in vexGears and g2 in vexGears) or (g1 in vexSprockets and g2 in vexSprockets):
+                if (g1 in vxGrs and g2 in vxGrs) or (g1 in vxSprckts and g2 in vxSprckts):
                     lst.append(g2)
                     trb = tr * float(g1) / float(g2)
                     if num > 1:
